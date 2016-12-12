@@ -2,12 +2,13 @@
 nav
 {
     background-image: url('dossier img/img100.png');
-    width: 1220px;
+    width: 1330px;
     height: 100px;
     text-align: right;
     position: fixed;
     padding: 1px;
     top: 0px
+
 
 }
 nav ul
@@ -18,7 +19,7 @@ nav li
 {
     display: inline-block;
     margin: auto;
-    padding-left: 10px;
+    padding-right: 10px;
 
 }
 a
@@ -26,7 +27,6 @@ a
     font-size: 15px;
     color: #292cfa;
     padding-bottom: 1px;
-    text-decoration: block;
 }
  a:hover
 {
@@ -36,15 +36,15 @@ a
 }
 body
 {
-    background-color: #8dfffd;
+    background-color: #f0fffa;
     font-family:'trebuchet MS', Arial, sans-serif
 }
 bloc-page
 {
     width: 900px;
-    margin: 50px
+    margin: auto;
 }
-h1, h2,
+h1,
 {
     font-family: dayrom; serif
         font-weight normal;
@@ -52,9 +52,11 @@ h1, h2,
 }
 article
 {
-    display: inline-block;
-    vertical-align: text-top;
-    text-align: left;
+    display: block;
+    vertical-align: top;
+    text-align: right;
+    top: right;
+
 
 }
 aside
@@ -70,16 +72,10 @@ p, h1
     width: 400px;
     padding: 10px;
 }
-footer: id: Mes Tweets, mes Option, mes Produits
+footer
+
 {
 
-    display: block;
-    border-bottom: 3px solid;
-    text-shadow: #ee92ff;
-    width:100%
-    height:10px;
-    border: #65fa65;
-    float: center;
 
 }
 ul
