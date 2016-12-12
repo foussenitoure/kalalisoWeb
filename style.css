@@ -1,10 +1,13 @@
 
 nav
 {
-    background-image: url('dossier img/image29.png');
-    display: inline-block;
-    width: 900px;
+    background-image: url('dossier img/img100.png');
+    width: 1220px;
+    height: 100px;
     text-align: right;
+    position: fixed;
+    padding: 1px;
+    top: 0px
 
 }
 nav ul
@@ -14,21 +17,22 @@ nav ul
 nav li
 {
     display: inline-block;
-    margin-right: 5px;
+    margin: auto;
     padding-left: 10px;
-    background-position: top;
+
 }
-nav a
+a
 {
-    font-size: 10px;
-    color: #301dfa;
+    font-size: 15px;
+    color: #292cfa;
     padding-bottom: 1px;
-    text-decoration: none;
+    text-decoration: block;
 }
-nav a:hover
+ a:hover
 {
-    color: #ff486a;
+    color: #fcff74;
     border-bottom: 3px solid;
+
 }
 body
 {
@@ -38,7 +42,7 @@ body
 bloc-page
 {
     width: 900px;
-    margin: auto;
+    margin: 50px
 }
 h1, h2,
 {
@@ -49,31 +53,34 @@ h1, h2,
 article
 {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: text-top;
     text-align: left;
 
 }
-aside a
+aside
 {
     text-align: left;
-    font-family: Arial;
-    text-transform:;
+    font-family: 'trebuchet MS', Arial, sans-serif
+    text-transform: none;
 }
-p
+p, h1
 {
-    text-align: justify;
+    text-align: left;
     border: 1px solid black;
-    width: 350px;
+    width: 400px;
     padding: 10px;
 }
-footer
+footer: id: Mes Tweets, mes Option, mes Produits
 {
 
-    display: inline;
-    border: #ee92ff;
+    display: block;
+    border-bottom: 3px solid;
     text-shadow: #ee92ff;
     width:100%
     height:10px;
+    border: #65fa65;
+    float: center;
+
 }
 ul
 {
