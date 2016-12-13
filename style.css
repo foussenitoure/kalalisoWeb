@@ -1,12 +1,12 @@
 
 nav
 {
-    background-image: url('dossier img/img100.png'); url('dossier/img/kalaliso.png');
+    background-image: url('dossier img/img100.png');
     width: 1330px;
     height: 100px;
     text-align: right;
     position: fixed;
-    padding: 1px;
+    padding: 0px;
     top:0px
 }
 nav ul
@@ -17,7 +17,7 @@ nav ul
 nav li
 {
     display: inline-block;
-    margin: 1px;
+    margin: 10px;
     padding-right: 1px;
     text-align: right;
 }
@@ -46,22 +46,29 @@ bloc-page
 }
 h1
 {
-        font-feature-settingsfamily: dayrom; sans-serif
+        font-family: dayrom, sans-serif
         font-weight normal;
         text-transform: none;
 }
 article
 {
-    display: inline-block;
+    display: block;
     vertical-align: top;
     text-align: right;
     top: auto;
 }
 aside
 {
-    text-align: left;
+    text-align: right;
     font-family: 'trebuchet MS', Arial, sans-serif;
     text-transform: uppercase;
+
+}
+image
+{
+    display: block;
+    text-align: right;
+    position: fixed;
 }
 p, h1
 {
@@ -70,13 +77,18 @@ p, h1
     width: 400px;
     padding: 10px;
 }
+h2
+{
+    display: inline-block;
+    text-align: left;
+    border: 1px solid black;
+    width: 100px;
+    height: auto;
+    padding: 1px;
+}
 footer
 {
-    Mes: Tweets,  Optique,  Produits;
-}
-
-ul
-{
 
 }
+
 
