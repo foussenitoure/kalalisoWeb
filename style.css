@@ -1,15 +1,13 @@
 
 nav
 {
-    background-image: url('dossier img/img100.png');
+    background-image: url('dossier img/img100.png'); url('dossier img/kalaliso.png');
     width: 1330px;
     height: 100px;
     text-align: right;
     position: fixed;
     padding: 1px;
     top: 0px
-
-
 }
 nav ul
 {
@@ -44,25 +42,23 @@ bloc-page
     width: 900px;
     margin: auto;
 }
-h1,
+h1
 {
-    font-family: dayrom; serif
+        font-feature-settingsfamily: dayrom; sans-serif
         font-weight normal;
-    text-transform: none;
+        text-transform: none;
 }
 article
 {
-    display: block;
+    display: inline-block;
     vertical-align: top;
     text-align: right;
-    top: right;
-
-
+    top: auto;
 }
 aside
 {
     text-align: left;
-    font-family: 'trebuchet MS', Arial, sans-serif
+    font-family: 'trebuchet MS', Arial, sans-serif;
     text-transform: none;
 }
 p, h1
