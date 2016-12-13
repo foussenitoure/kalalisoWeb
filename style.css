@@ -1,8 +1,8 @@
 
 nav
 {
-    background-image: url('dossier img/img100.png'); url('dossier img/kalaliso.png');
-    width: 1330px;
+    background-image: url('dossier img/img100.png'); url('dossier/img/kalaliso.png');
+    width: 1250px;
     height: 100px;
     text-align: right;
     position: fixed;
@@ -16,7 +16,7 @@ nav ul
 nav li
 {
     display: inline-block;
-    margin: auto;
+    margin: 1px;
     padding-right: 10px;
 
 }
@@ -24,18 +24,19 @@ a
 {
     font-size: 15px;
     color: #292cfa;
-    padding-bottom: 1px;
+    padding-bottom: 5px;
 }
  a:hover
 {
     color: #fcff74;
-    border-bottom: 3px solid;
+    border-bottom: 1px solid;
 
 }
 body
 {
     background-color: #f0fffa;
     font-family:'trebuchet MS', Arial, sans-serif
+
 }
 bloc-page
 {
@@ -65,7 +66,7 @@ p, h1
 {
     text-align: left;
     border: 1px solid black;
-    width: 400px;
+    width: 500px;
     padding: 10px;
 }
 footer
