@@ -5,7 +5,7 @@ nav
     width: 1330px;
     height: 100px;
     text-align: right;
-    position: fixed;
+    position: relative;
     padding: 0px;
     top:0px
 }
@@ -41,54 +41,73 @@ body
 }
 bloc-page
 {
-    width: 900px;
-    margin: auto;
+    width: 1130px;
+    margin: 10px;
+}
+h2, h4
+{
+        font-family: dayrom, sans-serif;
+        display: block;
+        text-align: right;
+        position: relative;
+        width: 200px;
+        height: 10px;
+        padding: 0px;
 }
 h1
 {
-        font-family: dayrom, sans-serif
-        font-weight normal;
-        text-transform: none;
-}
-article
-{
+    background-color: #4ebeff;
     display: block;
-    vertical-align: top;
-    text-align: right;
-    top: auto;
+    border: #9efcff;
+    width:500px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+    margin: 15px;
+    left: auto;
+
 }
 aside
 {
-    text-align: right;
+    display: inline-flex;
+    vertical-align: top;
+    text-align:right;
+    width: auto;
+    height: 50px;
     font-family: 'trebuchet MS', Arial, sans-serif;
     text-transform: uppercase;
-
+    padding: 10%;
+    float: right;
+    margin-left: 150px;
 }
-image
-{
-    display: block;
-    text-align: right;
-    position: fixed;
-}
-p, h1
-{
-    text-align: left;
-    border: 1px solid black;
-    width: 400px;
-    padding: 10px;
-}
-h2
+article
 {
     display: inline-block;
+    vertical-align: 10px;
     text-align: left;
-    border: 1px solid black;
-    width: 100px;
-    height: auto;
-    padding: 1px;
+    top: 0px;
+    margin-bottom: 5%;
 }
-footer
+
+p
 {
+    text-align: right;
+    display: inline-block;
+    width: 450px;
+    padding: 25px;
+    position: relative;
 
 }
+ footer
+{
+         display: inline-block;
+         text-align: right;
+         vertical-align: 20px;
+         width: 1120px;
+         height: 20px;
+         padding: 10px;
+         list-style-type: none;
+
+ }
 
 
