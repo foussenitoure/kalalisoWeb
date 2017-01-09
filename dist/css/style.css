@@ -3,10 +3,20 @@
 footer
 {
 	transform-style: black;
-	padding-top: 25px;
+	padding-top: 10px;
+	background-color: green;
+	position: inlilne-block;
+	image-rendering: inline
+
 
 }
-maquilage
+header
+{
+	background-color: green;
+	background-position: fixed;
+
+}
+.maquilage
 {
 	display: inline-block;
 	padding-top: 25px;
@@ -16,7 +26,19 @@ p; h1; h3; h4
 
  {
  	
- 	text-align: 7px;
+ 	
+ }
+
+ body
+ {
+ 	background-color: yellow;
+ 	margin-top: 0px;
+ }
+ .imagetop
+ {
+ 	display: : inline-block;
+ 	padding-top: 25px;
+ 	margin-top: 20px; 
 
 
  }
