@@ -6,12 +6,17 @@ footer
 	padding-top: 10px;
 	background-color: green;
 	position: block;
+	margin-top: 15px;
+
 
 }
 header
 {
 	background-color: green;
+	margin-top: 70px;
 	background-position: fixed;
+
+
 
 }
 .maquilage
@@ -35,8 +40,6 @@ header
  	margin-top: 20px; 
  	image-rendering: inherit;
 
-
-
  }
 
 content 
@@ -50,6 +53,12 @@ content
 aside 
 {
 	border-top-left-radius: 10px; 
+
+}
+navbar-brand
+{
+	position: fixed;
+	margin-top: 0px;
 
 }
 
