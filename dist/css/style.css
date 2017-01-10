@@ -26,6 +26,7 @@ header
  {
  	background-image: url("/kalaliso/dossier img/images 30.png");
  	margin-top: 0px;
+ 	font-family: arial; sans-serif; trebuchet MS;
  }
  .imagetop
  {
@@ -45,9 +46,11 @@ content
 
 
 }
+
 aside 
 {
 	border-top-left-radius: 10px; 
 
-
 }
+
+
