@@ -5,9 +5,7 @@ footer
 	transform-style: black;
 	padding-top: 10px;
 	background-color: green;
-	position: inlilne-block;
-	image-rendering: inline
-
+	position: block;
 
 }
 header
@@ -22,24 +20,28 @@ header
 	padding-top: 25px;
 	margin: 0; left: 30px;
 }
-p; h1; h3; h4
 
- {
- 	
- 	
- }
 
  body
  {
- 	background-color: yellow;
+ 	background-image: url("/kalaliso/dossier img/images 30.png");
  	margin-top: 0px;
  }
  .imagetop
  {
- 	display: : inline-block;
+ 	display: inline-block;
  	padding-top: 25px;
  	margin-top: 20px; 
+ 	image-rendering: inherit;
+
 
 
  }
 
+content 
+{
+	border:	dashed;
+	padding-top: 20px;
+
+
+}
