@@ -4,9 +4,8 @@ footer
 {
 	transform-style: black;
 	padding-top: 0px;
-	background-color: green;
+	background-color: default;
 	background-position: fixed;
-	position: block;
 	margin-top: 15px;
 	width: 1200px;
 
@@ -27,7 +26,9 @@ header
 {
 	display: inline-block;
 	padding-top: 25px;
-	margin: 0; left: 30px;
+	margin-top: 0px;
+	border-width: 2px;
+
 }
 
 
@@ -41,7 +42,7 @@ header
  .imagetop
  {
  	display: inline-block;
- 	padding-top: 25px;
+ 	padding-top: 30px;
  	margin-top: 0px; 
  	image-rendering: inherit;
 
@@ -49,7 +50,7 @@ header
 
 content 
 {
-	border:	dashed;
+	border:	;
 	padding-top: 20px;
 
 
@@ -57,13 +58,22 @@ content
 
 aside 
 {
-	border-top-left-radius: 10px; 
+	border: 10px;
+
 
 }
 navbar-brand
 {
 	position: fixed;
 	margin-top: 0px;
+
+}
+.navbar-footer
+{
+		position: 20px;
+		border-width: 250px;
+		text-shadow: 20px;
+
 
 }
 
