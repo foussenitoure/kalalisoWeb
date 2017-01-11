@@ -3,10 +3,12 @@
 footer
 {
 	transform-style: black;
-	padding-top: 10px;
+	padding-top: 0px;
 	background-color: green;
+	background-position: fixed;
 	position: block;
 	margin-top: 15px;
+	width: 1200px;
 
 
 }
@@ -15,6 +17,8 @@ header
 	background-color: green;
 	margin-top: 70px;
 	background-position: fixed;
+	width: 1345px;
+
 
 
 
@@ -32,12 +36,13 @@ header
  	background-image: url("/kalaliso/dossier img/images 30.png");
  	margin-top: 0px;
  	font-family: arial; sans-serif; trebuchet MS;
+ 	padding-top: auto;
  }
  .imagetop
  {
  	display: inline-block;
  	padding-top: 25px;
- 	margin-top: 20px; 
+ 	margin-top: 0px; 
  	image-rendering: inherit;
 
  }
