@@ -62,10 +62,11 @@ aside
 
 
 }
-navbar-brand
+.navbar-brand
 {
 	position: fixed;
-	margin-top: 0px;
+	margin-top: 10px;
+	font-size: 40px;
 
 }
 .navbar-footer
