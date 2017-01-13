@@ -70,9 +70,12 @@ navbar-brand
 }
 .navbar-footer
 {
-		position: 20px;
+		position: 50px;
 		border-width: 250px;
 		text-shadow: 20px;
+		border-width: 200px;
+		padding-top: 50px
+		margin-button: 10px;
 
 
 }
