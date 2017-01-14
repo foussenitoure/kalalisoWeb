@@ -5,7 +5,7 @@ footer
 	transform-style: black;
 	padding-top: 0px;
 	margin-left: 1px;
-	background-color: red;
+	background-color: green;
 	background-position: fixed;
 	margin-top: auto;
 	width: 1345px;
@@ -96,6 +96,8 @@ aside
 	padding-top: 50px;
 	position: relative;
 	text-align: right;
+	background-color: #fff;
+
 }
 
 .nav navbar-nav, li
