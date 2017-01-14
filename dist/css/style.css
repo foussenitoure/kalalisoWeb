@@ -4,13 +4,35 @@ footer
 {
 	transform-style: black;
 	padding-top: 0px;
-	background-color: default;
+	margin-left: 1px;
+	background-color: red;
 	background-position: fixed;
-	margin-top: 15px;
-	width: 1200px;
+	margin-top: auto;
+	width: 1345px;
+	text-align: center;
+}
+.navbar-nav
 
+{
+		position: left;
+		background-color: rgb(625 542 250);
+		border-width: 100px;
+		padding-top: 0px
+		margin-button: 2px;
+		font-size: 15px;
+		text-align: 50px;
 
 }
+ .imagetop
+ {
+ 	display: inline-block;
+ 	padding-top: 30px;
+ 	margin-top: 0px; 
+ 	border:  solid black 1px;
+
+
+ }
+
 header
 {
 	background-color: green;
@@ -18,19 +40,15 @@ header
 	background-position: fixed;
 	width: 1345px;
 
-
-
-
 }
-.maquilage
+.navbar-brand
+
 {
-	display: inline-block;
-	padding-top: 25px;
-	margin-top: 0px;
-	border-width: 2px;
+	position: fixed;
+	margin-top: 10px;
+	font-size: 40px;
 
 }
-
 
  body
  {
@@ -39,14 +57,7 @@ header
  	font-family: arial; sans-serif; trebuchet MS;
  	padding-top: auto;
  }
- .imagetop
- {
- 	display: inline-block;
- 	padding-top: 30px;
- 	margin-top: 0px; 
- 	image-rendering: inherit;
 
- }
 
 content 
 {
@@ -58,25 +69,7 @@ content
 
 aside 
 {
-	border: 10px;
-
-
-}
-.navbar-brand
-{
-	position: fixed;
-	margin-top: 10px;
-	font-size: 40px;
-
-}
-.navbar-footer
-{
-		position: 50px;
-		border-width: 250px;
-		text-shadow: 20px;
-		border-width: 200px;
-		padding-top: 50px
-		margin-button: 10px;
+	
 
 
 }
