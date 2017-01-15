@@ -4,25 +4,31 @@ footer
 {
 	transform-style: black;
 	padding-top: 0px;
-	margin-left: 1px;
 	background-color: green;
 	background-position: fixed;
 	margin-top: auto;
 	width: 1345px;
-	text-align: center;
+	text-align: right;
 }
 
 .navbar-nav
 
 {
 		position: left;
-		background-color: rgb(625 542 250);
+		background-color: #f8f9db;
 		border-width: 100px;
 		padding-top: 0px
 		margin-button: 2px;
 		font-size: 15px;
 		text-align: 50px;
 
+
+
+}
+.navbar-collapse
+{
+	text-align: right;
+	font-size: 25px;
 }
 
  .imagetop
@@ -31,6 +37,7 @@ footer
  	padding-top: 30px;
  	margin-top: 0px; 
  	border:  solid black 1px;
+ 	text-align: center;
 
 
  }
