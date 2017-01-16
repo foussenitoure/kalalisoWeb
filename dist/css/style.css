@@ -4,7 +4,7 @@ footer
 {
 	transform-style: black;
 	padding-top: 0px;
-	background-color: green;
+	background-image: url("/kalaliso/dossier img/img33.jpg");
 	background-position: fixed;
 	margin-top: auto;
 	width: 1345px;
@@ -15,15 +15,12 @@ footer
 
 {
 		position: left;
-		background-color: #f8f9db;
+		background-image: url("/kalaliso/dossier img/img33.jpg");
 		border-width: 100px;
 		padding-top: 0px
 		margin-button: 2px;
 		font-size: 15px;
 		text-align: 50px;
-
-
-
 }
 .navbar-collapse
 {
@@ -38,8 +35,6 @@ footer
  	margin-top: 0px; 
  	border:  solid black 1px;
  	text-align: center;
-
-
  }
 
 header
