@@ -3,18 +3,19 @@
 .navbar-nav
 
 {
-		position: left;
-		background-image: url("/kalaliso/dossier img/img33.jpg");
-		border-width: 100px;
-		padding-top: 0px
-		margin-button: 2px;
-		font-size: 15px;
-		text-align: 50px;
+	position: left;
+	background-image: url("/kalaliso/dossier img/img33.jpg");
+	border-width: 100px;
+	padding-top: 0px
+	margin-button: 2px;
+	font-size: 15px;
+	text-align: 50px;
 }
 .navbar-collapse
 {
-	text-align: right;
+	text-align: left;
 	font-size: 25px;
+	padding-right: 15px;
 }
 
  .imagetop
@@ -39,9 +40,9 @@ header
 
 {
 	position: fixed;
-	margin-top: 10px;
 	font-size: 40px;
-	padding-top: 20px;
+	padding-right: 20px;
+	text-align: right;
 
 }
 
@@ -74,13 +75,13 @@ h1, h2, h3
 aside 
 {
 	
-	border-top-style: solid black 1px;
-	width: 220px;
-	height: 350px;
-	padding: 10px;
-	margin-top: 10px;
-	position: relative;
-
+	border: solid black 1px;
+	width: 240px;
+	height: 320px;
+	padding-top: 1px;
+	padding-left: 15px;
+	margin-left: 110px;
+	position: left;
 }
 
 
@@ -120,4 +121,8 @@ aside
 	text-align: left;
 	margin-top: 20px;
 	padding-top: 0px;
+}
+.article
+{
+text-align: left;
 }
