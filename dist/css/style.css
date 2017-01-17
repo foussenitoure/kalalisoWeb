@@ -74,23 +74,15 @@ h1, h2, h3
 aside 
 {
 	
-	border: solid black 1px;
+	border-top-style: solid black 1px;
 	width: 220px;
-	height: 300px;
+	height: 350px;
 	padding: 10px;
-	margin-right: 10px;
-	position: center;
-
-}
-
-.reseau
-{
-	padding-top: 50px;
+	margin-top: 10px;
 	position: relative;
-	text-align: right;
-	background-color: #fff;
 
 }
+
 
 .nav navbar-nav, li
 {
@@ -99,8 +91,10 @@ aside
 
 .navbar-footer
 {
-	text-align: left
+	text-align: right;
 	background-color: default;
+	margin-right: 15px;
+
 }
 
 .footer
@@ -109,15 +103,15 @@ aside
 	padding-top: 0px;
 	background-image: url("/kalaliso/dossier img/img33.jpg");
 	background-position: fixed;
-	margin-top: auto;
 	width: 1345px;
 	text-align: right;
 
 }
 .container-footer
 {
-	text-align: right;
+	text-align: left;
 	border-image-width: 20px;
+	padding-left: 70px;
 
 
 }
