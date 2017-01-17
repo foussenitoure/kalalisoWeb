@@ -1,16 +1,5 @@
 
 
-footer
-{
-	transform-style: black;
-	padding-top: 0px;
-	background-image: url("/kalaliso/dossier img/img33.jpg");
-	background-position: fixed;
-	margin-top: auto;
-	width: 1345px;
-	text-align: right;
-}
-
 .navbar-nav
 
 {
@@ -39,7 +28,7 @@ footer
 
 header
 {
-	background-color: green;
+	background-image: url("/kalaliso/dossier img/img33.jpg");
 	margin-top: 70px;
 	background-position: fixed;
 	width: 1345px;
@@ -105,4 +94,28 @@ aside
 .nav navbar-nav, li
 {
 	text-align: center;
+}
+
+.navbar-footer
+{
+	text-align: left
+	background-color: default;
+}
+
+.footer
+{
+	transform-style: black;
+	padding-top: 0px;
+	background-image: url("/kalaliso/dossier img/img33.jpg");
+	background-position: fixed;
+	margin-top: auto;
+	width: 1345px;
+	text-align: right;
+
+}
+.container-footer
+{
+	border-image-outset: 40px;
+	text-align: center;
+
 }
