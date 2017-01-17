@@ -74,11 +74,12 @@ h1, h2, h3
 aside 
 {
 	
-	border: solid black 2px;
-	width: 350px;
-	padding: 1px;
-	margin-right: 30px;
-	position: auto;
+	border: solid black 1px;
+	width: 220px;
+	height: 300px;
+	padding: 10px;
+	margin-right: 10px;
+	position: center;
 
 }
 
@@ -115,7 +116,14 @@ aside
 }
 .container-footer
 {
-	border-image-outset: 40px;
-	text-align: center;
+	text-align: right;
+	border-image-width: 20px;
 
+
+}
+.container-footer2
+{
+	text-align: left;
+	margin-top: 20px;
+	padding-top: 0px;
 }
