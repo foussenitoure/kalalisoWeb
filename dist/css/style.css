@@ -13,9 +13,9 @@
 }
 .navbar-collapse
 {
-	text-align: left;
-	font-size: 25px;
-	padding-right: 15px;
+	text-align: right;
+	font-size: 35px;
+	padding-right: 10px;
 }
 
  .imagetop
@@ -57,7 +57,7 @@ header
 
 .content 
 {
-	padding-top: 50px;
+	padding-top: 30px;
 
 }
 p
@@ -66,9 +66,11 @@ p
 
 }
 
-h1, h2, h3
+ h3
 {
-	
+	padding-top: 0px;
+	margin-bottom: 5px;
+	text-align: center;	
 
 }
 
@@ -87,14 +89,18 @@ aside
 
 .nav navbar-nav, li
 {
-	text-align: center;
+	text-align: left;
+	padding-right: 15px;
+
 }
 
 .navbar-footer
 {
 	text-align: right;
-	background-color: default;
-	margin-right: 15px;
+	background-color: blue;
+	margin-right: 10px;
+	padding-right: 20px;
+
 
 }
 
@@ -102,9 +108,9 @@ aside
 {
 	transform-style: black;
 	padding-top: 0px;
-	background-image: url("/kalaliso/dossier img/img33.jpg");
 	background-position: fixed;
 	width: 1345px;
+	height: 100px;
 	text-align: right;
 
 }
@@ -121,6 +127,8 @@ aside
 	text-align: left;
 	margin-top: 20px;
 	padding-top: 0px;
+	background-image: url("/kalaliso/dossier img/fond_blue.png");
+
 }
 .article
 {
