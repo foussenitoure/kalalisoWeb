@@ -3,8 +3,8 @@
 .navbar-nav
 
 {
-	background-color: blue;
 	position: left;
+	background-color:  #696969;
 	border-width: 100px;
 	width: auto;
 	padding-top: 0px;
@@ -18,6 +18,8 @@
 	text-align: right;
 	font-size: 45px;
 	padding-right: 10px;
+	background-color:  #DCDCDC;
+	
 }
 
  .imagetop
@@ -31,7 +33,7 @@
 
 header
 {
-	background-color: blue;
+	background-color: #C0C0C0;
 	margin-top: 50px;
 	background-position: fixed;
 	width: 1250px;
@@ -46,6 +48,7 @@ header
 	padding-right: 10px;
 	margin: 10px;
 	text-align: right;
+
 }
 
  body
@@ -90,19 +93,22 @@ aside
 }
 
 
-.nav navbar-nav, li
+.li
 {
 	text-align: left;
 	padding-right: 15px;
+	background-color:  #DCDCDC;
+
 
 }
 
 .navbar-footer
 {
 	text-align: right;
-	background-color: blue;
 	margin-right: 10px;
 	padding-right: 20px;
+	background-color: #C0C0C0;
+
 
 }
 
@@ -114,14 +120,17 @@ aside
 	width: 1250px;
 	height: 45px;
 	text-align: right;
-	background-color: blue; 
+	background-color: #C0C0C0;
+
 
 }
 .container-footer
 {
-	text-align: center;
+	text-align: left;
 	padding-left: 70px;
-	background-color: blue; 
+	background-color:  #696969;
+
+
 
 }
 .container-footer2
@@ -129,6 +138,10 @@ aside
 	text-align: center;
 	margin: 15px;
 	padding-top: 10px;
+	background-color:  #696969;
+
+
+
 	
 
 }
