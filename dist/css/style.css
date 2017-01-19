@@ -3,13 +3,15 @@
 .navbar-nav
 
 {
+	background-color: blue;
 	position: left;
-	background-image: url("/kalaliso/dossier img/img33.jpg");
 	border-width: 100px;
-	padding-top: 0px
+	width: auto;
+	padding-top: 0px;
 	margin-button: 2px;
 	font-size: 15px;
-	text-align: 50px;
+	text-align: 20px;
+	color: default;
 }
 .navbar-collapse
 {
@@ -29,10 +31,10 @@
 
 header
 {
-	background-image: url("/kalaliso/dossier img/img33.jpg");
-	margin-top: 70px;
+	background-color: blue;
+	margin-top: 50px;
 	background-position: fixed;
-	width: 1345px;
+	width: 1250px;
 	height: 50px;
 
 }
@@ -49,9 +51,9 @@ header
  body
  {
  	background-image: url("/kalaliso/dossier img/images 30.png");
- 	margin-top: 0px;
+ 	margin: auto;
  	font-family: arial; sans-serif; trebuchet MS;
- 	padding-top: 20px;
+ 	padding-top: 0px;
  }
 
 
@@ -70,7 +72,8 @@ p
 {
 	padding-top: 0px;
 	margin-bottom: 5px;
-	text-align: center;	
+	text-align: center;
+	font-size: 25px;	
 
 }
 
@@ -101,7 +104,6 @@ aside
 	margin-right: 10px;
 	padding-right: 20px;
 
-
 }
 
 .footer
@@ -110,24 +112,26 @@ aside
 	padding-top: 0px;
 	background-position: fixed;
 	width: 1345px;
-	height: 100px;
+	height: 45px;
 	text-align: right;
+	background-color: blue; 
 
 }
 .container-footer
 {
 	text-align: left;
-	border-image-width: 20px;
+	border-image-width: 50px;
 	padding-left: 70px;
-
+	background-color: blue; 
 
 }
 .container-footer2
 {
-	text-align: left;
+	text-align: center;
 	margin-top: 20px;
 	padding-top: 0px;
-	background-image: url("/kalaliso/dossier img/fond_blue.png");
+	background-color: blue; 
+	
 
 }
 .article
