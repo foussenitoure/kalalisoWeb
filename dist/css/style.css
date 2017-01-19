@@ -8,7 +8,7 @@
 	border-width: 100px;
 	width: auto;
 	padding-top: 0px;
-	margin-button: 2px;
+	margin: 2px;
 	font-size: 15px;
 	text-align: 20px;
 	color: default;
@@ -16,7 +16,7 @@
 .navbar-collapse
 {
 	text-align: right;
-	font-size: 35px;
+	font-size: 45px;
 	padding-right: 10px;
 }
 
@@ -35,7 +35,7 @@ header
 	margin-top: 50px;
 	background-position: fixed;
 	width: 1250px;
-	height: 50px;
+	height: 35px;
 
 }
 .navbar-brand
@@ -43,9 +43,9 @@ header
 {
 	position: fixed;
 	font-size: 40px;
-	padding-right: 20px;
+	padding-right: 10px;
+	margin: 10px;
 	text-align: right;
-
 }
 
  body
@@ -72,7 +72,7 @@ p
 {
 	padding-top: 0px;
 	margin-bottom: 5px;
-	text-align: center;
+	text-align: left;
 	font-size: 25px;	
 
 }
@@ -110,8 +110,8 @@ aside
 {
 	transform-style: black;
 	padding-top: 0px;
-	background-position: fixed;
-	width: 1345px;
+	background-position: absolute;
+	width: 1250px;
 	height: 45px;
 	text-align: right;
 	background-color: blue; 
@@ -119,8 +119,7 @@ aside
 }
 .container-footer
 {
-	text-align: left;
-	border-image-width: 50px;
+	text-align: center;
 	padding-left: 70px;
 	background-color: blue; 
 
@@ -128,13 +127,16 @@ aside
 .container-footer2
 {
 	text-align: center;
-	margin-top: 20px;
-	padding-top: 0px;
-	background-color: blue; 
+	margin: 15px;
+	padding-top: 10px;
 	
 
 }
 .article
 {
 text-align: left;
+}
+.blockquote
+{
+
 }
