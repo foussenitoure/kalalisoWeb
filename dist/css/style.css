@@ -3,15 +3,14 @@
 .navbar-nav
 
 {
-	position: left;
+	position: right;
 	background-color:  #696969;
-	border-width: 100px;
-	width: auto;
+	width:800px;
 	padding-top: 0px;
 	margin: 2px;
 	font-size: 15px;
-	text-align: 20px;
-	color: default;
+	text-align: 50px;
+	color: ;
 }
 .navbar-collapse
 {
