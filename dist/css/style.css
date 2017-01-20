@@ -34,8 +34,8 @@ header
 	background-color: #C0C0C0;
 	margin-top: 50px;
 	background-position: fixed;
-	width: 1350px;
-	height: 35px;
+	width: 1450px;
+	height: 50px;
 
 }
 .navbar-brand
@@ -113,7 +113,6 @@ aside
 
 .footer
 {
-	transform-style: black;
 	padding-top: 0px;
 	background-position: fixed;
 	width: 1350px;
@@ -128,6 +127,7 @@ aside
 	text-align: left;
 	padding-left: 70px;
 	width: 1350px;
+	height: 50px;
 	background-color:  #696969;
 
 
@@ -137,7 +137,7 @@ aside
 {
 	text-align: center;
 	margin: 15px;
-	padding-top: 10px;
+	padding-top: 20px;
 	background-color:  #696969;
 	width: 1350px;
 	height: 150px;
