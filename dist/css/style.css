@@ -16,7 +16,8 @@
 	text-align: right;
 	float: auto;
 	font-size: 45px;
-	padding-right: 10px;
+	padding-left:  10px;
+	margin-right: 10px;
 	background-color:  #DCDCDC;
 	
 }
@@ -54,7 +55,7 @@ header
 
  body
  {
- 	background-image: url("/kalaliso/dossier img/images 30.png");
+ 	background-color: #F5F5DC;
  	margin: auto;
  	font-family: arial; sans-serif; trebuchet MS;
  	padding-top: 0px;
