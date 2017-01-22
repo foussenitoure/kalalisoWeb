@@ -35,8 +35,7 @@ header
 	margin-top: 50px;
 	background-position: fixed;
 	padding-left: 100px;
-	width: 1349px;
-	height: 50px;
+	height: 30px;
 	padding: 70px;
 
 }
@@ -51,7 +50,9 @@ header
 }
 .breadcrumb
 {
-	padding-left: 15px;
+	padding-left: 25px;
+	height: 10px;
+
 }
 
  body
