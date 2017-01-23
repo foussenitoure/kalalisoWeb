@@ -50,8 +50,11 @@ header
 }
 .breadcrumb
 {
-	padding-left: 25px;
-	height: 10px;
+	padding-left: 20px;
+	height: 30px;
+	margin-top: 0px;
+	font-size: 13px;
+	position: absolute;
 
 }
 
