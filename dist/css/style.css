@@ -32,19 +32,18 @@
 .header
 {
 	background-color: #C0C0C0;
-	margin-top: 10px;
 	background-position: fixed;
- 	padding-left: : 150px;
 	height: 10px;
-	padding: 40px;
-	margin-left:110px;
+	width: 1250px;
+	padding: 30px;
+	padding-left: auto;
 
 }
 .navbar-brand
 
 {
-	position: fixed;
-	font-size: 40px;
+	position: absolute;
+	font-size: 35px;
 	padding-right: 10px;
 	margin: 2px;
 
@@ -61,6 +60,15 @@
 
 
 }
+.content 
+{
+	margin: auto;
+	padding-top: 75px;
+	padding-right: 0px;
+	padding-left: 0px;
+
+
+}
 
  body
  {
@@ -71,14 +79,7 @@
  }
 
 
-.content 
-{
-	margin: auto;
-	float: auto;
-	padding-top: 30px;
 
-
-}
 .p
 {
 	
