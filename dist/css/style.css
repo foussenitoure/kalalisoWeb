@@ -7,8 +7,9 @@
 	width:1250px;
 	padding-left: 630px;
 	padding-right: 0px;
-	font-size: 13px;
+	font-size: 10px;
 	text-align: 1px;
+	text-transform: uppercase;
 }
 .navbar-collapse
 {
