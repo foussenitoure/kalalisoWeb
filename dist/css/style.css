@@ -102,22 +102,13 @@
 
 }
 
-.navbar-footer
-{
-	text-align: right;
-	float: 10px;
-	width: 1349px;
-	margin-right: 10px;
-	padding-right: 20px;
-	background-color: #C0C0C0;
 
-}
 
 .footer
 {
-	padding-top: 0px;
-	background-position: fixed;
-	width: 1349px;
+	padding-left: 0px;
+	background-position: absolute;
+	width: 1245px;
 	height:auto;
 	text-align: right;
 	background-color: #C0C0C0;
@@ -128,7 +119,7 @@
 {
 	text-align: left;
 	padding-left: 50px;
-	width: 1350px;
+	width: 1245px;
 	height: auto;
 	background-color: #696969;
 
@@ -142,9 +133,13 @@
 .jumbotron
 {
 	background-color: #C0C0C0;
-	width: 1100px;
+	width: 1245px;
 	height: 360px;
-	padding: auto;
+	padding-right: 20px;
+	margin-left: 0px;
+	padding-left: 0px;
+
+
 }
 .reseau
 {
