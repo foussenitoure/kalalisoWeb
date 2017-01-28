@@ -98,34 +98,26 @@
 	text-align: left;
 	padding-right: 15px;
 	background-color:  #DCDCDC;
-
-
 }
-
-
 
 .footer
 {
 	padding-left: 0px;
-	background-position: absolute;
-	width: 1245px;
+	background-position: fixed;
+	width: 1334px;
 	height:auto;
 	text-align: right;
 	background-color: #C0C0C0;
-
-
 }
 .container-footer
 {
 	text-align: left;
-	padding-left: 50px;
 	width: 1245px;
 	height: auto;
 	background-color: #696969;
-
 }
 
-}
+
 .blockquote
 {
 
@@ -133,11 +125,10 @@
 .jumbotron
 {
 	background-color: #C0C0C0;
-	width: 1245px;
+	width: 1334px;
 	height: 360px;
-	padding-right: 20px;
+	padding-right: auto;
 	margin-left: 0px;
-	padding-left: 0px;
 
 
 }
