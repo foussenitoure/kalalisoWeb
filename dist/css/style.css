@@ -24,7 +24,7 @@
  	display: inline-block;
  	padding: 10px;
  	margin: 20px;
- 	border:  solid black 1px;
+ 	border:  solid black px;
  	text-align: center;
  }
 
@@ -42,8 +42,8 @@
 
 {
 	position: absolute;
-	font-size: 35px;
-	padding-right: 10px;
+	font-size: 45px;
+	padding-right: 20px;
 	margin: 2px;
 
 }
@@ -60,7 +60,7 @@
 
 }
 .content 
-{
+{	
 	margin: auto;
 	padding-top: 75px;
 	padding-right: 0px;
@@ -68,11 +68,11 @@
 
 }
 
- body
+ .body
  {
  	background-color: #F5F5DC;
- 	margin: auto;
- 	font-family: arial; sans-serif; trebuchet MS;
+ 	margin-top: 10px;
+ 	font-family: arial sans-serif, trebuchet MS; 
  	padding-top: 0px;
  }
 
@@ -109,13 +109,7 @@
 	text-align: right;
 	background-color: #C0C0C0;
 }
-.container-footer
-{
-	text-align: left;
-	width: 1245px;
-	height: auto;
-	background-color: #696969;
-}
+
 
 
 .blockquote
