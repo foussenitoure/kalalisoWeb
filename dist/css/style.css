@@ -78,7 +78,7 @@
 .p
 {
 	
-	font-size: 40px;
+
 }
 
  h3
@@ -129,4 +129,8 @@
 	height: 150px;
 	transform-style: arial;
 
+}
+.tbody
+{
+	border: 1px;
 }
