@@ -24,7 +24,7 @@
  	display: inline-block;
  	padding: 10px;
  	margin: 20px;
- 	border:  solid black px;
+ 	border:  solid black 1px;
  	text-align: center;
  }
 
@@ -95,6 +95,7 @@
 	text-align: left;
 	padding-right: 15px;
 	background-color:  #DCDCDC;
+	text-align:  none;
 }
 
 .footer
@@ -132,5 +133,9 @@
 }
 .tbody
 {
-	border: 1px;
+	border: solid black 1px;
+}
+.table
+{
+	background-color: #DCDCDC;
 }
