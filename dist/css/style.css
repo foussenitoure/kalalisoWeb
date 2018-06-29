@@ -3,29 +3,23 @@
 
 {
 	background-color:  #DCDCDC;
-	position:          auto;
+	position:          all;
 	width:             auto;
-	padding-left:      630px;
-	padding-right:     0px;
+	padding-left:      250px;
+	padding-right:     250px;
 	font-size:         10px;
-	text-align:        0px;
+	text-align:        left;
 	text-transform:    uppercase;
 }
-.navbar-collapse
-{
-	padding-right:     20px;
-	font-size:         50px;
-	background-color:  #DCDCDC;
-	width:             auto;
-	position:          auto;
 
-}
+
+
  .imagetop
  {
  	display:          inline-block;
  	padding:          30px;
  	margin:           20px;
- 	border:           solid black 10px;
+ 	border:           solid black 30px;
  	text-align:       center;
  }
 
@@ -34,20 +28,22 @@
 	display:          inline-block;
 	background-color: #C0C0C0;
 	height:           30px;
-	width:            1300px;
+	width:            900px;
 	padding:          30px;
 	margin:           0px;
 	position:         auto;
+	text-align:       center;
 
 }
 .navbar-brand
 
 {
-	position:        fixed;
-	font-size:       45px;
-	padding-right:   50px;
-	margin:          2px;
-	width:           auto;
+	position:             absolute;
+	background-position:  center;
+	font-size:            30px;
+	padding-top:          10px;
+	margin:               2px;
+	width:                30px;
 
 }
 .breadcrumb
@@ -64,11 +60,12 @@
 }
 .content 
 {	
-	margin:              fixed;
-	padding-top:         50px;
-	padding-right:       0px;
-	padding-left:        10px;
-}
+	margin:              20px;
+	padding:             10px;
+	padding-right:       25px;
+	padding-left:        25px;
+	background-color:    red;
+
 
  .body
  {
@@ -83,10 +80,6 @@
 	background-color:    #F8F8FF;
 	margin-top:          120px;
 	padding-top:         30px;
-
-
-
-
 
 }
 
@@ -111,7 +104,7 @@
 {
 	padding:             0px;
 	background-position: fixed;
-	width:               1200px;
+	width:               900px;
 	height:              auto;
 	text-align:          right;
 	background-color:    #C0C0C0;
@@ -129,8 +122,8 @@
 .jumbotron
 {
 	background-color:   #C0C0C0;
-	width:              1200px;
-	height:             300px;
+	width:              600px;
+	height:             100px;
 	padding-right:      auto;
 	margin-left:        0px;
 
