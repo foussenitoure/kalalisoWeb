@@ -30,8 +30,8 @@
 	height:           30px;
 	width:            900px;
 	padding:          30px;
-	margin:           0px;
-	position:         auto;
+	margin:           10px;
+	background-position: fixed;
 	text-align:       center;
 
 }
@@ -60,11 +60,11 @@
 }
 .content 
 {	
-	margin:              20px;
-	padding:             10px;
-	padding-right:       25px;
+	margin:              70px;
+	padding:             0px;
+	padding-right:       65px;
 	padding-left:        25px;
-	background-color:    red;
+	background-color:    rgba(125, 200, 250);
 
 
  .body
@@ -147,8 +147,9 @@
 
 .figcaption
 {
-padding-top:           30px;
-
+    padding-top:           30px;
+    background-position:   top;
+    background-color:      rgba(210 250 110);
 }
 
 
