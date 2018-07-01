@@ -66,11 +66,12 @@
 }
 .content 
 {	
-	margin:              20px;
+	margin:              50px;
+	border-top:          20px;
 	padding-top:         20px;
-	padding-right:       auto;
-	padding-left:        auto;
-	background-color:    rgba(125, 200, 250);
+	padding-right:       25px;
+	padding-left:        25px;
+	background-color:    red;
 
 
  .body
@@ -78,7 +79,7 @@
  	background-color:    #F5F5DC;
  	margin-top:          10px;
  	font-family:         arial sans-serif, trebuchet MS; 
- 	padding-top:         50px;
+ 	
  }
 
 .p
