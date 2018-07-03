@@ -75,11 +75,11 @@
 
 
  .body
+ 
  {
  	background-color:    #F5F5DC;
  	margin-top:          10px;
- 	font-family:         arial sans-serif, trebuchet MS; 
- 	
+ 	font-family:         arial sans-serif,trebuchet MS; 
  }
 
 .p
@@ -110,12 +110,12 @@
 
 .footer
 {
-	padding:             0px;
+	padding:             40px;
 	background-position: fixed;
-	width:               900px;
-	height:              auto;
+	width:               600px;
+	height:              250px;
 	text-align:          right;
-	background-color:    #C0C0C0;
+	background-color:    black;
 }
 
 
