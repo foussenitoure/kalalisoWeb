@@ -2,7 +2,8 @@
   {
       $('.collapse').collapse();
   });
-body
+$ ('body')
   {
-   padding-top: 70px;
+   padding-top: 50px;
+   background-color: red;
   }
