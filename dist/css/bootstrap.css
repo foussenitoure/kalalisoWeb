@@ -18,7 +18,14 @@ details,
 figcaption,
 figure,
 footer,
-header,
+.container header
+{
+  background-color: rgba(210, 110, 205);
+
+
+
+
+  },
 hgroup,
 main,
 menu,
@@ -286,19 +293,19 @@ th {
     border: 1px solid #000;
   }
   .table {
-    border-collapse: collapse !important;
+    border-collapse: collapse #ddd important;
   }
-  .table td,
+  .table td
   .table th {
-    background-color: #fff !important;
+    background-color: #000;
   }
-  .table-bordered th,
+  .table-bordered th
   .table-bordered td {
-    border: 1px solid #ddd !important;
+    border: 1px solid #ddd;
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
+  font-family: Glyphicons Halflings;
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
@@ -307,14 +314,17 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: Glyphicons Halflings;
   font-style: normal;
   font-weight: normal;
-  line-height: 1;
+  line-height: 10px;
+
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+
+   }
+
 .glyphicon-asterisk:before {
   content: "\002a";
 }
@@ -5975,6 +5985,8 @@ button.close {
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
+  background-position: fixed;
+  padding-top: 25px;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5990,7 +6002,7 @@ button.close {
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid red;
   background-color: red;
 }
 .modal-footer .btn + .btn {
