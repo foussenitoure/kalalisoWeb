@@ -27,6 +27,43 @@ section,
 summary {
   display: block;
 }
+.navbar-brand
+
+{
+  position:             absolute;
+  background-position:  center;
+  font-size:            30px;
+  padding-top:          10px;
+  margin:               10px;
+  width:                30px;
+
+}
+.breadcrumb
+
+{
+  background-color:    #000080;
+  padding-left:        20px;
+  height:              35px;
+  padding-top:         0px;
+  margin-top:          50px;
+  font-size:           10px;
+  position:            fixed;
+  color:               #F8F8FF;
+
+}
+.navbar-nav
+
+{
+  background-color:  #DCDCDC;
+  position:          all;
+  width:             auto;
+  height:            50px;
+  padding-right:     0px;
+  padding-left:      250px;
+  font-size:         10px;
+  text-align:        right;
+  text-transform:    uppercase;
+}
 audio,
 canvas,
 progress,
@@ -4177,6 +4214,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    padding-top: 50px;
+    margin-top: 25px;
   }
 }
 .navbar-collapse {
@@ -4970,6 +5009,7 @@ a.badge:focus {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
+  background-color: #d5d5d5;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4981,6 +5021,7 @@ a.badge:focus {
   border-radius: 6px;
 }
 .jumbotron .container {
+  
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -5950,6 +5991,7 @@ button.close {
   padding: 15px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
+  background-color: red;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;

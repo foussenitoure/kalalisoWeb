@@ -57,10 +57,11 @@
 {
 	background-color:    #000080;
 	padding-left:        20px;
-	height:              40px;
-	margin-top:          0px;
+	height:              45px;
+	padding-top:         0px;
+	margin-top:          50px;
 	font-size:           10px;
-	position:            fixed;
+	position:            absolute;
 	color:               #F8F8FF;
 
 }
@@ -157,7 +158,7 @@
 {
     padding-top:           30px;
     background-position:   top;
-    background-color:      rgba(210 250 110);
+    background-color:      red;
 
 }
 
