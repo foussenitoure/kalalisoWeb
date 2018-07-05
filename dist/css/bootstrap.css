@@ -15,12 +15,18 @@ body {
 article,
 aside,
 details,
-figcaption,
-figure,
-footer,
-.container header
+.figcaption
 {
-  background-color: rgba(210, 110, 205);
+  background-color: black;
+}
+figure,
+.footer
+{
+  background-color: rgba(250, 155, 340);
+}
+.header
+{
+  background-color: rgba(100, 110, 205);
 
 
 
@@ -6003,7 +6009,7 @@ button.close {
   padding: 15px;
   text-align: right;
   border-top: 1px solid red;
-  background-color: red;
+  background-color: rgba(205, 150, 540);
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;
