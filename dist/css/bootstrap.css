@@ -9,8 +9,14 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
+.body 
+{
   margin: 0;
+  background-color: rgb(255, 500, 350);
+  padding-left: 25px;
+  padding-right: 25px;
+  width:  700px;
+  height: 250px;
 }
 article,
 aside,
@@ -22,13 +28,16 @@ details,
 figure,
 .footer
 {
-  background-color: rgba(250, 155, 340);
+  background-color: #F8F8FF;
+
 }
 .header
 {
-  background-color: rgba(100, 110, 205);
+  background-color: #F8F8FF;
   padding-top: 25px;
-  margin: 20px; 
+  margin: 20px;
+
+
 
 
 
@@ -1341,8 +1350,10 @@ h6,
 .h6 {
   font-size: 12px;
 }
-p {
-  margin: 0 0 10px;
+.p {
+  margin: 20px;
+  padding-top: 20px;
+ 
 }
 .lead {
   margin-bottom: 20px;
@@ -1357,7 +1368,7 @@ p {
 }
 small,
 .small {
-  font-size: 85%;
+  font-size: 55%;
 }
 mark,
 .mark {
